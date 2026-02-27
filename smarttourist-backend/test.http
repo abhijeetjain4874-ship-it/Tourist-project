@@ -1,0 +1,12 @@
+### Test API
+GET http://localhost:5000/test
+
+### Register Tourist
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "name": "Abhi",
+  "email": "abhi@gmail.com",
+  "phone": "9876543210"
+}
